@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Noto+Serif:ital@1&display=swap');
+
+body {
+    font-family: cormorant, noto-serif;
+    background-color: aqua;
+}
+
+#question-area {
+    width: 90%;
+    height: 40px;
+    background-color: chartreuse;
+    margin: 30px;
+}
+
+.question-text {
+    width: 90%;
+    height: 40px;
+}
+
+#checktrue, #checkfalse {
+    float: right;
+    height: 40px;
+    width: 40px;
+}
+
+#response {
+    background-color: azure;
+    height: 20px;
+    width: 100px;
+    margin: 30px;
+}
+
+#reset {
+    margin: 30px;
+}
+
+#score-box {
+    height: 20px;
+    width: 80px;
+    background-color: azure;
+    margin: 30px;
+}
+
+#error {
+    text-align: center;
+    font-size: larger;
+}
