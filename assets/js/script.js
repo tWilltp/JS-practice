@@ -1,6 +1,6 @@
 // creates array of questions and answers
 
-var questions = [{
+var question = [{
     question: "The film 'Nightmare Before Christmas' was created using physical objects",
     response: "True",
     answer: true
@@ -42,13 +42,10 @@ var questions = [{
     answer: false
 }];
 
+// quiz varibles
 
-
-let reset = document.getElementById('reset');
-let nextQuestion = document.getElementById('next-question');
+let score = 0;
 let answer = Boolean;
-let checkTrue = document.getElementById('checktrue');
-let checkfalse = document.getElementById('checkfalse');
 
 // resets and starts quiz
 
@@ -56,7 +53,7 @@ document.getElementById('reset').addEventListener('click', reset);
 
 function reset() {
 
-    return questions[0]
+    return question[0]
 
 }
 
