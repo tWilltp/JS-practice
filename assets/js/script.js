@@ -42,18 +42,23 @@ var question = [{
     answer: false
 }];
 
-// quiz varibles
+document.addEventListener("DOMContentLoaded", () => {
+    
+});
+
+// quiz variables
 
 let score = 0;
 let answer = Boolean;
+let displayQuestion = document.getElementsByClassName('question-text');
 
 // resets and starts quiz
 
 document.getElementById('reset').addEventListener('click', reset);
 
 function reset() {
-
-    return question[0]
+    
+    displayQuestion(question[0])
 
 }
 
@@ -94,3 +99,7 @@ function checkFalse() {
     }
 }
 
+reset();
+nextQuestion();
+checkTrue();
+checkFalse();
