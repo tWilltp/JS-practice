@@ -1,6 +1,6 @@
 // creates array of questions and answers
 
-var question = [{
+var questions = [{
     question: "The film 'Nightmare Before Christmas' was created using physical objects",
     response: "True",
     answer: true
@@ -58,7 +58,7 @@ document.getElementById('reset').addEventListener('click', reset);
 
 function reset() {
     
-    displayQuestion(question[0])
+    (questions[0])
 
 }
 
@@ -68,7 +68,7 @@ document.getElementById('next-question').addEventListener('click', nextQuestion)
 
 function nextQuestion() {
 
-    return question++;
+    return questions++;
 
 }
 
